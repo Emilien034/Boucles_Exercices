@@ -35,8 +35,12 @@ class Program
 
         // Etape 4 : faire un compteur qui compte 2 par 2 de 0 à 15
 
-        for (int i = 1; i <= 10; i++)
+        for (int i = 0; i <= 15; i +=2 )
         {
+            if (i == 14)
+            {
+                i++;
+            }
             Console.WriteLine(i);
             Thread.Sleep(1000);
         }
