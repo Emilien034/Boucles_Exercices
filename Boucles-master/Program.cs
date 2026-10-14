@@ -48,7 +48,7 @@ class Program
 
         // Etape 5 : faire une boucle qui se répète à chaque fois que l'utilisateur écrit autre chose que "oui"
 
-        string oui = Console.ReadLine();
+        string oui = "";
         while (oui != "oui")
         {
             oui = Console.ReadLine();
